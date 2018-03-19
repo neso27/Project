@@ -1,0 +1,530 @@
+@charset="UTF-8"
+/* CSS document */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #999999;
+}
+
+/* body */
+
+#wraper {
+	width: 950px;
+	margin: auto;
+}
+
+/* div kojai okruzuje sajt na Home, Library, Contact, Children's books, Books for adults, Historical stranici */
+
+#header {
+	width: 950px;
+	margin: 0px;
+	padding: 0px;
+}
+#header  img{
+	vertical-align: bottom;
+}
+#header h1 {
+	color: red;
+	text-align: center;
+}
+
+/* heder Home, Library, Children's books, Books for adults, Historical stranici */
+
+#nav {
+	width: 950px;
+	height: 60px;
+	background: #4d1a00;
+	margin-bottom: 50px;
+	margin: auto;
+}
+#nav ul li {
+	float: left;
+	margin-left: 90px;
+	list-style: none;
+}
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+}
+#nav a:link,
+a:visited {
+	float: left;
+	list-style: none;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 35px;
+	border: 2px solid;
+	border-color: #331100;
+	background: #331100;
+	border-radius: 20px;
+	color: #FFFFFF;
+	margin-bottom: 5px;
+	text-align: center;
+}
+#nav a:hover {
+	border-color: #b33c00;
+	background: #b33c00;
+	border-radius: 20px;
+	color: #FFFFFF;
+}
+#nav a:active{
+	border-color: #FFFFFF;
+	background: #FFFFFF;
+	border-radius: 20px;
+	color: #4d1a00;
+}
+
+/* navigacija */
+
+
+#main {
+	width: 950px;
+	margin: 0px;
+	padding: 0px;
+}
+#main h1 {
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	color: #4d1a00;
+	margin: 0px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: center;
+}
+#main p {
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+	color: #4d1a00;
+	margin: 10px;
+	padding: 0px;
+	text-align: center;
+}
+
+/* main "Home" */
+
+#hr {
+	width: 950px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+/* div koji okruzuje "children", "sirina" i "books" divove ("Library" stranica) */
+
+.children {
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	width: 250px;
+}
+
+/* div koji okruzuje diva "sirina" ("Library" stranica) */
+
+.sirina {
+	width: 200px;
+	margin: 20px;
+	padding: 0px;
+}
+.sirina h2 {
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	color: #4d1a00;
+	margin: 0px;
+	padding: 10px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+.prica a {
+	float: none;
+	border: none;
+	background: none;
+	padding-left: 10px;
+	margin: 0px;
+	text-align: center;
+}
+.prica h3 {
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+	color: #b33c00;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.autor a {
+	float: none;
+	border: none;
+	background: none;
+	padding-left: 10px;
+	margin: 0px;
+	text-align: center;
+}
+.autor p {
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	color: #b33c00;
+}
+.img a {
+	float: none;
+	border: none;
+	background: none;
+	border-radius: none;
+	text-align: center;
+	padding: 0px;
+	display: block;
+}
+
+/* podesavanje slike na ("Library" stranica) */
+
+#books ul li {
+	list-style: none;
+	text-decoration: none;
+	height: 60px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin: 0px;
+}
+#books ul {
+	margin: 0px;
+	padding: 0px;
+}
+#books1 h1 {
+	color: #1a0900;
+	text-align: center;
+}
+#books a:link,
+a:visited {
+	list-style: none;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0px;
+	border: 2px solid;
+	border-color: #331100;
+	background: #331100;
+	border-radius: 20px;
+	color: #FFFFFF;
+	display: block;
+}
+#books a:hover {
+	border-color: #b33c00;
+	background: #b33c00;
+	border-radius: 20px;
+	color: #FFFFFF;
+}
+#books a:active{
+	border-color: #FFFFFF;
+	background: #FFFFFF;
+	border-radius: 20px;
+	color: #4d1a00;
+}
+#books {
+	float: left;
+	width: 400px;
+	background: #4d1a00;
+	text-align: center;
+	padding: 0px;
+	margin-right: 10px;
+	margin-left: 270px;
+	margin-top: 100px;
+}
+
+/* Library */
+
+#member2 {
+	width: 950px;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Member (heder) */
+
+#member {
+	float: left;
+	text-align: center;
+	background: #4d1a00;
+	border-radius: 20px;
+	border: 2px solid;
+	border-color: #4d1a00;
+	width: 300px;
+	margin-left: 20px;
+	font-weight: bold;
+	margin-right: 200px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	padding: 0px;
+}
+#member h1 {
+	color: #000;
+	font-weight: bold;
+}
+
+/* Member (main) */
+
+#member3 {
+	float: right;
+	text-align: center;
+	border: 2px solid;
+	border-color: #4d1a00;
+	border-radius: 20px;
+	background: #4d1a00;
+	margin-right: 20px;
+	font-weight: bold;
+	margin-left: 102px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	padding: 0px;
+	width: 300px;
+}
+
+/* Member (sidebar) */
+
+#contact {
+	width: 950px;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Contact (header) */
+
+.form {
+	float: left;
+	margin-right: 110px;
+	background: #E0E0E0;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 2px 4px 0 #A0A0A0;
+	text-shadow: 2px 1px 20px #000;
+	margin-left: 20px;
+	width: 300px;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: italic;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.shadow a:link,
+a:visited {
+	float: right;
+	list-style: none;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 10px;
+	border: 2px solid;
+	border-color: #331100;
+	background: #331100;
+	border-radius: 20px;
+	color: #FFFFFF;
+	margin: 5px;
+	text-align: center;
+}
+.shadow a:hover {
+	border-color: #b33c00;
+	background: #b33c00;
+	border-radius: 20px;
+	color: #FFFFFF;
+}
+.shadow a:active{
+	border-color: #FFFFFF;
+	background: #FFFFFF;
+	border-radius: 20px;
+	color: #4d1a00;
+}
+
+/* Contact (main) */
+
+#frame {
+	float: right;
+	margin-left: 100px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+/* Contact (sidebar) */
+
+#slike {
+	float: left;
+	width: 250px;
+	margin-left: 20px;
+	padding: 10px;
+	margin-top: 100px;
+}
+
+/* Children's books, Books for adults, Historical (main) */
+
+
+.podatak {
+	float: left;
+	width: 540px;
+	margin-left: 100px;
+	padding: 10px;
+	margin-top: 50px;
+}
+.podatak {
+	float: left;
+	width: 540px;
+	margin-left: 100px;
+	padding: 10px;
+	margin-top: 50px;
+}
+.podatak h1 {
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	color: #4d1a00;
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+}
+.podatak h2 {
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	color: #4d1a00;
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+}
+.podatak h3 {
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+	color: #4d1a00;
+	margin-left: 10px;
+	text-align: left;
+}
+.podatak h4 {
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	color: #4d1a00;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+/* ovaj div okruzuje divove podaci Children's books, Books for adults, Historical (sidebar) */
+
+
+#tabovi {
+	height: 60px;
+	overflow: hidden;
+}
+#tabovi a {
+	float: left;
+	margin-right: 65px;
+	margin-left: 65px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: none;
+	background: #802b00;
+}
+#tabovi ul li {
+	text-decoration: none;
+	list-style: none;
+}
+
+/* ovaj div je za library i comment dugmice na stranici Children's books, Books for adults, Historical (sidebar) */
+
+.active a:link,
+a:visited {
+	list-style: none;
+	text-decoration: none;
+	padding: 10px;
+	margin: 0px;
+	border: 2px solid;
+	border-color: #331100;
+	background: #331100;
+	border-radius: 20px;
+	color: #FFFFFF;
+	display: block;
+}
+.active a:hover {
+	border-color: #b33c00;
+	background: #b33c00;
+	border-radius: 20px;
+	color: #FFFFFF;
+}
+.active a:active{
+	border-color: #FFFFFF;
+	background: #FFFFFF;
+	border-radius: 20px;
+	color: #4d1a00;
+}
+
+/* ovaj div je za dugmice stilizacija na Children's books, Books for adults, Historical stranici (sidebar) */
+
+.text h2 {
+	margin-top: 30px;
+}
+.text ul li {
+	color: #4d1a00;
+}
+
+/* ovaj div je za text ispod dugmica na Children's books, Books for adults, Historical stranici (sidebar) */
+
+#footer {
+	width: 950px;
+	text-align: center;
+	clear: both;
+	background: #4d1a00;
+	padding:0px;
+	overflow: hidden;
+}
+#footer p {
+	font-size: 20px;
+	font-weight: bold;
+}
+#footer a:link,
+a:visited {
+	float: right;
+	list-style: none;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 10px;
+	border: 2px solid;
+	border-color: #331100;
+	background: #331100;
+	border-radius: 20px;
+	color: #FFFFFF;
+	margin-bottom: 5px;
+}
+#footer a:hover {
+	border-color: #b33c00;
+	background: #b33c00;
+	border-radius: 20px;
+	color: #FFFFFF;
+}
+#footer a:active{
+	border-color: #FFFFFF;
+	background: #FFFFFF;
+	border-radius: 20px;
+	color: #4d1a00;
+}
+/* footer */
+ 
+/* #komentari {
+	margin: 10px;
+	padding: 10px;
+	width: 950px;
+}
+.comments {
+	width: 500px;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+} */
+
+/* Comment */
