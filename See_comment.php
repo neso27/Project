@@ -77,8 +77,6 @@ $conn = mysqli_connect(DBHOST,DBUSER,DBPASS,DB);
 			</script>
 				
 	</div>
-			
-	</div>
 	
 
 	<div id="footer">
